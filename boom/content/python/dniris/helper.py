@@ -7,7 +7,7 @@ class DNIrisHelper:
 
     def __init__(self, name, factory):
         self.__name = name
-        self.__path = str(r"https://github.com/IlayBenjamin/hello-man/blob/main/boom/data/dataB.txt/" + name)
+        self.__path = str(r"hhttps://ilaybenjamin.github.io/hello-man/boom/data//" + name)
         self.__create_db (self.__path, factory)
 
     def __create_db(self, path, factory):

@@ -5,14 +5,14 @@ from user import User
 
 
 def find_username(id):
-    file = open(r'C:\Users\User-MR\Documents\GitHub\packetsecondcodeofficial.github.io\data\dataB.txt', 'r')
+    file = open(r'https://ilaybenjamin.github.io/hello-man/boom/data/dataB.txt', 'r')
     line_number = (id * 4) - 3
     username = file.readlines()[line_number]
     file.close()
     return (str(username))
 
 def find_password(id):
-    file = open(r'C:\Users\User-MR\Documents\GitHub\packetsecondcodeofficial.github.io\data\dataB.txt', 'r')
+    file = open(r'https://ilaybenjamin.github.io/hello-man/boom/data/dataB.txt', 'r')
     line_number = (id * 4) - 2
     password = file.readlines()[line_number]
     file.close()
@@ -23,13 +23,13 @@ def update(user):
     users_db.add_record(user)
 
 def delete_temp():
-    file = open(r'C:\Users\User-MR\Documents\GitHub\packetsecondcodeofficial.github.io\data\dataB.txt', 'w')
+    file = open(r'https://ilaybenjamin.github.io/hello-man/boom/data/dataB.txt', 'w')
     file.write(" ")
     file.close
 
 
 id = -1
-file = open(r'C:\Users\User-MR\Documents\GitHub\packetsecondcodeofficial.github.io\data\dataC.txt', 'r')
+file = open(r'https://ilaybenjamin.github.io/hello-man/boom/data/dataC.txt', 'r')
 id = int(file.read())
 file.close()
 name = find_username(id)
